@@ -8,7 +8,6 @@ html, body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color: #777777;
 	background-color: #efefef;
-	/*background: #efefef url("../images/shattered.png"); */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,9 +27,8 @@ h2 {
 	font-size: 1.3em;
 }
 
-/* **************************
-Layout 
-************************** */
+/*Layout  */
+
 
 /* Header */
 header {
@@ -46,7 +44,7 @@ header .container {
 }
 
 .name, .nav {
-	/* I hate floats, so I avoid them whenever I can */
+
 	display: inline-block;
     vertical-align: middle;
     margin: 0;
@@ -99,7 +97,7 @@ header .container {
 }
 
 .nav ul li+li {
-	/* See https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/ */
+	
 	border-left: 1px solid #cccccc;
 }
 
